@@ -15,10 +15,10 @@ cc.Class({
 
     // },
 
-    change(){|
-        cc.log("New Chnages done"):
-         
-         }
+    change() {
+        cc.log("New Chnages done");
+    },
+
     start() {
         // Additional logic for the score screen if needed
         this.scoreLabel.string = "Score:" + Globals.score.toString();
